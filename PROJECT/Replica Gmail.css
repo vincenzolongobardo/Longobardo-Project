@@ -1,0 +1,62 @@
+body{
+  background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1440x900.jpg);
+  color: white;
+
+}
+.container{
+  margin-left: 335px;
+  margin-right: 335px;
+}
+.logo{
+  width: 100px;
+}
+.logo-text{
+  font-size: 25px;
+  display: inline-block;
+}
+h2>span {
+  color: red;
+  background-color: orange;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+
+
+.Messaggi.letti{
+  background-color: lightgrey;
+}
+.Messaggi.noletti{
+  background-color: white;
+}
+.soggetto{
+  color: black;
+}
+
+.testo1{
+  color: grey;
+}
+.testo1:after{
+  content: '...';
+}
+#stella:after{
+  content: "\2605";
+  color: orange;
+}
+.messaggi-sinistra{
+  width: 30%
+}
+.messaggi-destra{
+  width: 68%
+}
+.messaggi-destra, .messaggi-sinistra {
+display: inline-block;
+}
+
+
+footer{
+  text-align: center;
+}
+footer > span{
+  font-size: 25px;
+}

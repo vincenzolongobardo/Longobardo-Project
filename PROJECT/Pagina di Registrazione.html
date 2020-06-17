@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>Pagina di Registrazione sito</title>
+</head>
+
+<body>
+  <!--Titolo pagina-->
+  <h1>Registrazione sito internet</h1>
+
+  <!--inserimento dati-->
+  <form action="indirizzo dove ricevere i dati del form" method="post">
+    <div>
+      <input type="text" name="nome" placeholder="Inserisci il tuo nome" required minlength="3" maxlength="10">
+    </div>
+    <div>
+      <input type="text" name="Cognome" placeholder="Inserisci il tuo cognome" required minlength="3" maxlength="10">
+    </div>
+    <div>
+      <input type="email" name="email" placeholder="Inserisci la tua email" required>
+      <input type="password" name="Password" placeholder="Inserisci la tua Password" required>
+    </div>
+    <div>
+      <select name="Regione">
+        <option>Campania</option>
+        <option>Lombardia</option>
+        <option>Altro</option>
+      </select>
+      <br>
+
+      <!-- tasto per scelta-->
+      <input type="radio" name="Età" value="0-18">0-18
+      <input type="radio" name="Età" value="18+">18+
+    </div>
+    <div>
+      <input type="checkbox" name="Condizioni" value="Accetta i termini e condizioni">Accetta i termini e condizioni
+    </div>
+
+    <!--Tasto invio-->
+    <div>
+      <input type="submit" name="invio dati" value="Invia">
+    </div>
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+/*accentro la foto e il titolo*/
+body{
+  margin: 0 auto;
+}
+.sfondo{
+  background-color: GAINSBORO;
+}
+
+hr{
+  background-color:GOLDENROD;
+  height: 1px;
+  border: 0px;
+}
+#titoli {
+  color: GOLDENROD;
+}

@@ -1,0 +1,56 @@
+.città{
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+}
+*{
+  margin: 0;
+
+}
+
+
+#Amsterdam{
+  background-image: url(https://www.doveclub.it/wp-content/uploads/2016/09/amsterdam-canali3.jpg);
+  background-position: bottom, center;
+}
+
+#roma{
+  background-image: url(https://www.monnoroma.it/img_rionecampomarzio/piazzadispagna.jpg);
+  background-position: center, left;
+}
+
+#newyork{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Lower_Manhattan_skyline_-_June_2017.jpg/1200px-Lower_Manhattan_skyline_-_June_2017.jpg);
+  background-position: bottom,center;
+}
+.Testo{
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-55%, -10%);
+  text-align: center;
+  color:white;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.Testo_1{
+  font-size: 50px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  color:white;
+  background: rgba(0, 0, 0, 0.7);
+}
+.testo_2{
+  font-size: 50px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-45%,-10%);
+  color:white;
+  background: rgba(0, 0, 0, 0.7);
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="multipages.css">
+    <title>Sito multi-page</title>
+  </head>
+  <body>
+   <header class="header clearfix ">
+    <a href="" class="header_logo">Logo</a>
+    <a href=""class="header_icon-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+    <ul class="header_menu">
+      <li class="header_menu-item"><a href="multipages.html">Home</a></li>
+      <li class="header_menu-item"><a href="single.html">Single</a></li>
+      <li class="header_menu-item"><a href="page.html">Page</a></li>
+      <li class="header_menu-item"><a href="">Item</a></li>
+    </ul>
+   </header>
+
+   <section class="cover cover--single">
+     <div class="cover_filter"></div>
+    <div class="cover_caption">
+      <div class="cover_caption-copy">
+       <h1>Title of Article</h1>
+      </div>
+    </div>
+   </section>
+
+   <article class="single">
+     <div class="single_copy">
+       <h2 class="single_copy-title">Subtitle of Article</h2>
+       <p class="single_copy-data">16-06-2020, in <a href="#">News</a> by <a href="#">Vincenzo</a></p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     </div>
+   </article>
+
+   <section class="cards clearfix">
+    <div class="card">
+     <img class="card_image" src="https://source.unsplash.com/user/erondu/400x260">
+     <div class="card_copy">
+       <h3>Title card</h3>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     </div>
+    </div>
+    <div class="card">
+     <img class="card_image" src="https://source.unsplash.com/collection/190727/400x260">
+     <div class="card_copy">
+       <h3>Title card</h3>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     </div>
+    </div>
+    <div class="card">
+     <img class="card_image" src="https://source.unsplash.com/400x260/?nature,water">
+     <div class="card_copy">
+       <h3>Title card</h3>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     </div>
+    </div>
+   </section>
+
+
+
+   <footer class="footer">
+    <p>Copyright - 2020 Vincenzo Longobardo</p>
+   </footer>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+   <script>
+   $(document).ready(function(){
+   $(".header_icon-menu").click(function(e){
+   $(".header_menu").toggleClass('is-open');
+   e.preventDefault();
+   });
+   });
+
+   </script>
+  </body>
+</html>

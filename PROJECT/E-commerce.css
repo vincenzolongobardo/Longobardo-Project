@@ -1,0 +1,78 @@
+body{
+  background: lightgrey;
+  width: 1000px;
+  height: 1000px;
+
+}
+#titolo{
+  position: relative;
+  left: 400px;
+  color: goldenrod;
+}
+
+div{
+height: 220px;
+width: 200px;
+background-color: white;
+position: relative;
+}
+
+
+
+.sconto_30{
+  width: 35px;
+  height: 20px;
+  background: green;
+  position: absolute;
+  top:0;
+  left:165px;
+  line-height: 20px;
+  text-align: center;
+}
+#cuore{
+  color:red;
+  font-size: 25px;
+  position: relative;
+  left: 95px;
+  bottom: 10px;
+  display: none;
+}
+div:hover #cuore{
+  display: block;
+}
+.sconto_50{
+  width: 35px;
+  height: 20px;
+  background: red;
+  position: absolute;
+  top:0;
+  left:165px;
+  line-height: 20px;
+  text-align: center;
+}
+.iphone,.ipad,.cuffie{
+  display: inline-block;
+  position: relative;
+  left:400px;
+  right: 400px;
+}
+
+
+.iphone_1,.ipad_1,.cuffie_1{
+  display: inline-block;
+  left:400px;
+  right: 400px;
+}
+footer{
+  position: relative;
+  left: 500px;;
+}
+hr{
+  position: relative;
+  margin-left:400px;
+
+}
+footer > span{
+  font-size: 25px;
+  color: blue;
+}

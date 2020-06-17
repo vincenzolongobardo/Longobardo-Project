@@ -1,0 +1,55 @@
+body{
+  background: green;
+  width: 500px;
+  height: 500px;
+
+}
+
+div {
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  background: blue;
+  position: relative;
+
+}
+
+.primo,.secondo{
+  display: inline-block;
+}
+
+.yellow{
+   height: 20px;
+   width: 20px;
+   background: yellow;
+
+}
+#yellow_1{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#yellow_2{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+.brown-,.brown_{
+  height: 20px;
+  width: 20px;
+  background: brown;
+}
+
+.brown-{
+  position: relative;
+  top: 0;
+  left:0;
+}
+
+.brown_{
+  position: relative;
+  left:10px;
+  bottom: 0px;
+}
